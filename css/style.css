@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+form {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 14px;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    color: #4a4a4a;
+}
+
+div {
+    padding: 15px;
+}
+
+.titulos {
+    width: 49%;
+    display: inline-block;
+    line-height: 14px;
+}
+
+.input {
+    width: 49%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+input, select, textarea {
+    border: 1px solid #CCCCCC;
+}
+
+h3 {
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+h4 {
+    font-size: 12px;
+    font-weight: lighter;
+    color: #999999;
+}

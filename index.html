@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>Exercício 7 - Formulário</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+    <form action="formularinho.html" method="GET">
+        <div>
+            <div class="titulos"> 
+                <h3>Texto</h3>
+                <h4>Text input</h4>
+            </div>
+            <div class="input">
+                <input type="text" name="texto">
+            </div>
+        </div>
+        <div>
+            <div class="titulos">
+                <h3>Senha</h3>
+                <h4>Password</h4>
+            </div>
+            <div class="input">
+            <input type="password" name="senha">
+            </div>
+        </div>
+        <div>
+            <div class="titulos">
+                <h3>Escolha uma ou mais opções</h3>
+                <h4>Checkboxes</h4>
+            </div>
+            <div class="input">
+                <input type="checkbox" name="check" value="mulher"> <label for="check">Mulher</label> <br>
+                <input type="checkbox" name="check" value="poderosa"> <label for="check">Poderosa</label> <br>
+                <input type="checkbox" name="check" value="linda"> <label for="check">Linda</label> <br>
+                <input type="checkbox" name="check" value="maravilhosa"> <label for="check">Maravilhosa</label> <br>
+            </div>
+        </div>
+        <div>
+            <div class="titulos">
+                <h3>Escolha uma opção</h3>
+                <h4>Radio buttons</h4>
+            </div>
+            <div class="input">
+                <input type="radio" name="poder" value="forca"> <label for="poder">Super força</label> <br>
+                <input type="radio" name="poder" value="invisibilidade"> <label for="poder">Ser invisível</label> <br>
+                <input type="radio" name="poder" value="ler-mentes"> <label for="poder">Ler mentes</label> <br>
+                <input type="radio" name="poder" value="velocidade"> <label for="poder">Super velocidade</label> <br>
+            </div>
+        </div>
+        <div>
+            <div class="titulos">
+                <h3>Selecione dropdown</h3>
+                <h4>Select dropdown</h4>
+            </div>
+            <div class="input">
+                <select name="dropdown">
+                    <option value="" disabled selected></option>
+                    <option value="e-ai">e ai galera</option>
+                </select>
+            </div>
+        </div>
+        <div>
+            <div class="titulos">
+                <h3>Escolha um valor</h3>
+                <h4>Multiple values</h4>
+            </div>
+            <div class="input">
+                <input type="number" name="quantidade" min="1" max="10">
+            </div>
+        </div>
+        <div>
+            <div class="titulos">
+                <h3>Comentários</h3>
+                <h4>Comments</h4>
+            </div>
+            <div class="input">
+                <textarea name="comentarios" cols="30" rows="10"></textarea>
+            </div>
+        </div>
+        <div>
+            <div class="titulos"></div>
+            <div class="input">
+                <input type="submit" name="enviar" value="Enviar">
+            </div>
+        </div>
+    </form>
+</body>
+</html>
